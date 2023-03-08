@@ -1,5 +1,6 @@
-本文是基于原项目编译好后的OcrLiteOnnx文字识别系统，可以提取图片中的文字及文字中心点坐标等功能。
 原项目地址：https://github.com/benjaminwan/OcrLiteOnnx
+
+本项目是基于原项目编译好后的OcrLiteOnnx文字识别系统，可以提取图片中的文字及文字中心点坐标等功能。
 
 目录结构：
 image目录中ocrliteonnx.PNG文件是需要识别的图片文件，默认位置设置在这个目录下，也可以自行更改（同时需要修改run-test.bat中的图片路径）。
