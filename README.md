@@ -12,10 +12,11 @@ win_x64目录中存放已经编译好之后的exe文件。
 通过调用run-test.bat批处理文件，可以将/image/ocrliteonnx.PNG路径图片中的文字识别出来，并保存到ocrliteonnx.PNG-result.txt中，以下检测文字是否存在以及获取图片中文字中心点坐标均是通过对ocrliteonnx.PNG-result.txt文件进行解析得到的结果。
 
 在全屏窗口中匹配"我的手机"字段，并返回该字段中心的坐标，示例如下：
-D:\Python37\python.exe D:/OcrLiteOnnx/ocrliteonnx_api.py
-FullDetectTime:2559.871300ms
+
+FullDetectTime:2559.871300ms 
 我的手机 中心点坐标:(1091, 701)
-![image](https://user-images.githubusercontent.com/86114552/224942022-ebba8d8a-0f70-45c0-b561-8caf70c83a4e.png)
+
+![image](https://user-images.githubusercontent.com/86114552/224943108-e0fe9321-7c0f-41a9-af0e-1bddd67fe5a7.png)
 
 图片文字识别示例（其中有极个别文字识别错误，放大文字字体后可以正常识别出来）：
 ![image](https://user-images.githubusercontent.com/86114552/224942332-b2df8dc2-9bca-4871-a690-939228ce781b.png)
