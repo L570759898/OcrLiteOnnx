@@ -3,7 +3,6 @@
 本项目是基于原项目编译好后的OcrLiteOnnx文字识别系统，可以实现提取图片中的文字及文字中心点坐标等功能。
 
 目录结构：
-![image](https://user-images.githubusercontent.com/86114552/224941799-f801b279-6d8c-499d-aa35-8a3e0e58a658.png)
 image目录中ocrliteonnx.PNG文件是需要识别的图片文件，默认位置设置在这个目录下，也可以自行更改（同时需要修改run-test.bat中的图片路径）。
 models目录中存放已经训练好了的模型。
 win_x64目录中存放已经编译好之后的exe文件。
